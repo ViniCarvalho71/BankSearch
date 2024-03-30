@@ -42,11 +42,8 @@ def search(request):
           # Laço de repetição para encontrar todos os dados presentes
           # na div que contem a classe "main-info"
           n = 0
-          info = []
           info_dict = {}
           for x in soup.find_all("div", {"class": "main-info"}):
-               #info = f"{informacoes[n]}: {x.strong.get_text().strip()}\n"
-               info.append(x.strong.get_text().strip())
                info_dict[informacoes[n]] = x.strong.get_text().strip()
                n += 1
 
