@@ -16,6 +16,8 @@ const bancos = {
     "Inter": 'intermedium',
     "Pagseguro": 'pagseguro',
     "Banco Pan": 'pan',
+    "Banco BMG": 'bgm',
+    "Banco Neon": 'banco-neon-sa',
 };
 
 const bancos2 = [
@@ -36,6 +38,8 @@ const bancos2 = [
     "Inter",
     "Pagseguro",
     "Banco Pan",
+    "Banco BMG",
+    "Banco Neon",
 ];
 
 function autocomplete(input, list) {
