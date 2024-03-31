@@ -33,9 +33,9 @@
               <!-- Input para a Pesquisa -->
               <form action="{% url 'search' %}">
               <div class="input-group mb-3">
-                <input type="text" class="form-control" name="banco" placeholder="Ex.: Nubank" aria-label="Nome do Banco" aria-describedby="basic-addon2">
+                <input type="text" class="form-control" name="banco" placeholder="Ex.: Nubank" aria-label="Nome do Banco" aria-describedby="basic-addon2" id="search">
                 <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="submit">Pesquisar</button>
+                  <button class="btn btn-outline-secondary" type="submit" onclick="banksearch()">Pesquisar</button>
                 </div>
               </div>
             </form>
